@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp"
+      ],
+      "~/*": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/*"
+      ],
+      "@": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp"
+      ],
+      "@/*": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/*"
+      ],
+      "~~": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp"
+      ],
+      "~~/*": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/*"
+      ],
+      "@@": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp"
+      ],
+      "@@/*": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/*"
+      ],
+      "assets": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/assets"
+      ],
+      "public": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/public"
+      ],
+      "public/*": [
+        "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/public/*"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/Côme/Documents/GitHub/Nouveau dossier/Nuxt-Setup/API-pp/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
